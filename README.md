@@ -1,6 +1,7 @@
 # Alzheimer's-disease-regulatory-region-analysis
 Contains computer code and data to investigate Alzheimer's disease genome-wide association regions for regulatory function.
-
++
++
 These files contain the computer code and data used to generate the Tables and Results for the paper “Bioinformatics pipeline to guide late-onset Alzheimer’s disease (LOAD) post-GWAS studies: Prioritizing transcription regulatory variants within LOAD associated regions. “
 
 The bioinformatics pipeline and all associated steps are shown in Figure 1 in the manuscript and in the Methods section.  The example file shows screen shots of the UCSC Table browser to download the specific datasets used in the analysis.  The script file shows the R script used to run MotifbreakR to identify transcription factor binding sites that are disrupted by the SNPs identified earlier in the pipeline.  Intermediate steps, to construct the analysis datasets are done using the software package JMP (SAS Institute, Cary NC) to perform the table joins and subsetting operations needed to implement the bioinformatics pipeline.
